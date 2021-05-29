@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ### Candidates and Queries
-# 
-
-# In[5]:
+# Candidates and Queries
 
 
 import codecs
@@ -94,9 +91,8 @@ print("No of bigrams: {}".format(len(bigrams)))
 print("No of trigrams: {}".format(len(trigrams)))
 
 
-# ### Corpus Processing
+# Corpus Processing
 
-# In[6]:
 
 
 import codecs
@@ -135,7 +131,7 @@ print("Nb zero-frequency candidates: {}".format(No_missing_c))
 
 
 
-# In[7]:
+
 
 
 
@@ -186,7 +182,7 @@ def get_indices_unmasked_spans(mask):
     return spans
 
 
-# In[9]:
+
 
 
 #print("Counting lines in corpus...")
@@ -284,25 +280,7 @@ msg = "Wrote vocab --> {}".format('output_file.txt')
 print(msg)
 
 
-# In[ ]:
 
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
